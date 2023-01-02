@@ -1,0 +1,61 @@
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    height: 100vh;
+  }
+  
+  .welcome-page-header {
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .welcome-page-body {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-page-footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .welcome-page-body p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+  }
+  
+  .welcome-page-body button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .welcome-page-body button:hover {
+    background-color: #444;
+  }
+  
+  .welcome-page-footer p {
+    font-size: 14px;
+    margin: 0;
+  }
